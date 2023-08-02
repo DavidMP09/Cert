@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estyles.css">
+</head>
+
+<body>
+    <h1 id="title" class="title">Formulario de encuesta</h1>
+    <p id="descripcion" class="descripcion">Gracias por tomarse el tiempo para ayudarnos a mejorar la plataforma</p>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Nombre <input type="text" name="" id="name" required
+                placeholder="Enter your name" value="name"></label>
+        <label for="email" id="email-label">Email <input type="email" id="email" required placeholder="Enter your Email"
+                value="email"></label>
+        <label for="number" id="number-label">Edad <input type="number" id="number" min="10" max="99" required
+                placeholder="99" value="number"></label>
+        <p>¿Que opcion describe mejor su funcion actual ?</p>
+        <select name="" id="dropdown">
+            <option value="0">Seleccione el rol actual</option>
+            <option value="1">Alumno</option>
+            <option value="2">Trabajo de tiempo completo</option>
+            <option value="3">Estudiante de tiempo completo</option>
+            <option value="4">Prefiero no decirlo</option>
+            <option value="5">Otros</option>
+        </select>
+        <p>¿Recomendarias esta pagina a un amigo?</p>
+        <label for=""><input class="inline" value="definitely" type="radio" name="a" id=""> Definitivamente</label>
+        <label for=""><input class="inline" value="maybe" type="radio" name="a" id=""> Tal vez</label>
+        <label for=""><input class="inline" value="not-sore" type="radio" name="a" id=""> No esty seguro</label>
+        <p>¿cual es la funcion favorita de esta pagina?</p>
+        <select name="" id="">
+            <option value="0">Seleccione una opcion</option>
+            <option value="1">Desafios</option>
+            <option value="2">Proyectos</option>
+            <option value="3">Comunidad</option>
+            <option value="4">Fuente Abierta</option>
+        </select>
+        <p>¿que te gustaria ver mejorado?</p>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Proyectos front-end</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Proyectis de back-end</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Visualizacion de datosa</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Desafios</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Comunidad de codigo abierto</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Salas de ayuda de Git</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Videos</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Encuentros de ciudad</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Wiki</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Foro</label>
+        <label for=""><input type="checkbox" class="inline" value="a" name="" id=""> Cursos adicionales</label>
+        <p>¿Algun comentario o sugerencia?</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+        <input type="submit" value="submit" id="submit">
+    </form>
+</body>
+
+</html>

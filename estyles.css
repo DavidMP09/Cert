@@ -1,0 +1,48 @@
+body {
+    font-size: 16px;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    font-family: Tahoma;
+    color: #f6f6f7;
+    background-image: url(img/img1.png);
+    background-size: cover;
+    background-position: center;
+}
+.title,
+.descripcion {
+    text-align: center;
+    color: #f6f6f7;
+}
+
+form {
+    border: 0;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 4rem 3rem 5rem 3rem;
+    background-color: rgba(30, 30, 63, 0.5);
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    margin: 10px 0 0 0;
+    min-height: 2em;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5rem 0 0;
+    vertical-align: middle;
+}
+
+p {
+    margin-bottom: 0;
+}
